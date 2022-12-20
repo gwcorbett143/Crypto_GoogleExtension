@@ -1,14 +1,18 @@
+<!-- This is the html file that houses the buttons, text, and style of the popup -->
+
+<!-- -->
+
   <!DOCTYPE html>
 
   <html>
-  <style type="text/css">
+  <style type="text/css"> /* this is the css style guide for the popup and the buttons */
       
-    html,body{
+    html,body{ /* height and width*/
       width: 400px;
       height: 175px;
     }
 
-    .button{
+    .button{ /* button style (size mainly) */
       width: 80px;
       height: 30px;
       outline: none;
@@ -19,7 +23,7 @@
       cursor: pointer;  
     }
 
-    .button1{
+    .button1{ /* each of these corresponds with a different button to a differnt site */
       background: royalblue;
       color: white;
       float: left;
@@ -27,12 +31,12 @@
     
     .button2{
       background: lightgrey;
-      float: none;
+      float: left;
     }
   
     .button3{
       background: gold;
-      float: right;
+      float: left;
     }
 
   </style>
@@ -45,24 +49,26 @@
 
 <body>
 
+  <!-- This is the sample I typed in. This will eventually be python code-->
   <p>Your Wallet:</p>
-  <p></p>
   <p>SHIB Wallet USD 4.08</p>
   <p>ETH Wallet USD 98.63</p>
   <p>BTC Wallet USD 45.64</p>
   <p>Total Balance: USD 148.35</p>
 
-    <form action="https://www.coinbase.com" method="get" target="_blank">
-      <button class = "button button1">Coinbase</button>
-    </form>
 
-    <form action="https://crypto.com/us" method="get" target="_blank">
-      <button class = "button button2">Crypto.com</button>
-    </form>
+  <!-- these are the buttons that take you to a different crpyto page-->
+  <form action="https://www.coinbase.com" method="get" target="_blank"> 
+    <button class = "button button1">Coinbase</button>
+  </form>
 
-    <form action="https://www.coindesk.com/" method="get" target="_blank">
-      <button class = "button button3">CoinDesk</button>
-    </form>
+  <form action="https://crypto.com/us" method="get" target="_blank">
+    <button class = "button button2">Crypto.com</button>
+  </form>
+
+  <form action="https://www.coindesk.com" methon="get" target="_blank">
+    <button class = "button button3">CoinDesk</button>
+  </form>
 
 </body>
 

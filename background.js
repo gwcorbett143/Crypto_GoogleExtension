@@ -1,3 +1,5 @@
+//this file sets up the popup so when I click the icon it shows up
+
 let color = "#3AA757";
 
 chrome.runtime.onInstalled.addListener(() =>{
