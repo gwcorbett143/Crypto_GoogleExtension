@@ -6,8 +6,8 @@ from coinbase.wallet.client import Client
 from coinbase.wallet.error import AuthenticationError
 
 #these are my security keys that have access to my account (please don't steal them)
-cb_API_key = '5uR0RaWqzNLdqhAT'
-cb_secret = 'ZvcCjLlDEuscoPl9JLak2NAIxoy5meSV'
+cb_API_key = '*************'
+cb_secret = '**************'
 
 client = Client(cb_API_key, cb_secret) # this gets used to gain access to my account data
 

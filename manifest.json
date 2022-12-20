@@ -1,8 +1,8 @@
 //this was what runs the program from my desktop to google
 
 {
-	"name": "Chrome Demo",
-	"description": "description",
+	"name": "Crypto Keeper",
+	"description": "A place to see your crypto funds and access top crypto websites.",
 	"version": "1",
 	"manifest_version": 3,
 	"background": {
