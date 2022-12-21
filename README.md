@@ -19,8 +19,7 @@ To run the python code:
 	- cb_API_key = '**********'
 	- cb_secret = '**********'
 with:
-	- cb_API_key = '5uR0RaWqzNLdqhAT'
-	- cb_secret = 'ZvcCjLlDEuscoPl9JLak2NAIxoy5meSV'
+	- the email I sent you 
 
 3. the code should run as shown in the picture
 
