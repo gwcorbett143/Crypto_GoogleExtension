@@ -1,5 +1,3 @@
-# Crypto_GoogleExtension
-
 This Repository hosts all the neccesary code to run my crypto extension on my computer.
 The note, "my computer", is important because most of the code in this repository is specific to 
 my google chrome, my coinbase account, and virtual environmnets that only exist on my computer that 
@@ -18,12 +16,11 @@ To run the python code:
 2. open pycharm and folloe this youtube tutorial, but when he types numpy, type "coinbase"
 
 3. replace:
-		cb_API_key = '**********'
-		cb_secret = '**********'
-	
-	with:
-		cb_API_key = '5uR0RaWqzNLdqhAT'
-		cb_secret = 'ZvcCjLlDEuscoPl9JLak2NAIxoy5meSV'
+	- cb_API_key = '**********'
+	- cb_secret = '**********'
+with:
+	- cb_API_key = '5uR0RaWqzNLdqhAT'
+	- cb_secret = 'ZvcCjLlDEuscoPl9JLak2NAIxoy5meSV'
 
 3. the code should run as shown in the picture
 
