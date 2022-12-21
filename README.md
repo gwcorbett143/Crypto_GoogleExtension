@@ -16,12 +16,11 @@ To run the python code:
 2. open pycharm and folloe this youtube tutorial, but when he types numpy, type "coinbase"
 
 3. replace:
-		cb_API_key = '**********'
-		cb_secret = '**********'
-	
-	with:
-		cb_API_key = '5uR0RaWqzNLdqhAT'
-		cb_secret = 'ZvcCjLlDEuscoPl9JLak2NAIxoy5meSV'
+	- cb_API_key = '**********'
+	- cb_secret = '**********'
+with:
+	- cb_API_key = '5uR0RaWqzNLdqhAT'
+	- cb_secret = 'ZvcCjLlDEuscoPl9JLak2NAIxoy5meSV'
 
 3. the code should run as shown in the picture
 
